@@ -338,6 +338,8 @@ body {
 
 .command.list > .item {
   padding-bottom: 30px;
+
+  background-color: var(--white-text);
 }
 
 .social-networks {
@@ -381,7 +383,7 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 
 .link-partner {
@@ -560,6 +562,7 @@ body {
 
 .center-footer .link-social-networks {
   background-color: rgba(255, 255, 255, 0.1);
+  color: var(--white-text);
 }
 
 .center-footer .link-social-networks:hover,
